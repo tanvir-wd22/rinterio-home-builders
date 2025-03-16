@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio Home Builders</title>
+
+    <!-- tailwind-css and daisy-ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .manrope-font {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="w-11/12 max-w-screen-xl mx-auto">
+
+        <!-- navbar start here------------------------------------------------ -->
+        <div class="navbar bg-base-100">
+
+            <div class="navbar-start flex items-center gap-3">
+                <img class="bg-[#ABEF5F] rounded-full w-8" src="./assets/arrow-up-right-circle.svg" alt="">
+                <a class="text-3xl font-bold ">Rinterio</a>
+            </div>
+
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-base font-bold">
+                    <li><a class="text-[#494949]">Home</a></li>
+                    <li><a class="text-[#737373]">Services</a></li>
+                    <li><a class="text-[#737373]">Portfolio</a></li>
+                    <li><a class="text-[#737373]">Blogs</a></li>
+                    <li><a class="text-[#737373]">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="navbar-end">
+
+                <div class="hidden sm:flex justify-between items-center gap-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <button class="btn rounded-full bg-[#ABEF5F] text-xl font-bold">
+                        Book Consult
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z" />
+                        </svg>
+                    </button>
+                </div>
+
+
+                <div class="dropdown ml-3">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 mr-3 shadow-sm">
+                        <li><a class="text-[#494949]">Home</a></li>
+                        <li><a class="text-[#737373]">Services</a></li>
+                        <li><a class="text-[#737373]">Portfolio</a></li>
+                        <li><a class="text-[#737373]">Blogs</a></li>
+                        <li><a class="text-[#737373]">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+
+</body>
+
+</html>
